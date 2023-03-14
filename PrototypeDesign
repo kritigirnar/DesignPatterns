@@ -1,0 +1,4 @@
+Prototype design pattern
+It’s used when object caretion is costly( database calls or too much of processing which will cause money)
+It tells to create a prototype of the interface which will create the clone of the current object.
+We cache the object and return its clone on next request.
