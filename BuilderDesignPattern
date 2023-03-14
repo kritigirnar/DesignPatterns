@@ -1,0 +1,8 @@
+Builder design pattern:
+It focuses on creating a complex object from the simple object step by step.
+Major objects:
+1. Complex object/ final product: eg house , complex object we create with the help of builder design pattern.
+2. Builder : abstract class/ interface , which will create the complex object.
+It has getFinalPeoduct which will return the final complex object.
+3. ConcreteBuilders: these are different builder implementation classes which will provide the complex objects to create.
+4. Director: control object creation. 1 st call the appropriate concrete builde r then 2 nd return the complex object.
